@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Search Pro</title>
+
+    <link rel="stylesheet" href="movie_styles_v2.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>🎬 Movie Search Pro</h1>
+        <p>Search. Discover. Save your favourites.</p>
+    </header>
+
+    <main>
+
+        <section class="search-section">
+
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Search movies, series, episodes..."
+            >
+
+            <button id="searchBtn">
+                Search
+            </button>
+
+            <button id="homeBtn">
+                🏠 Home
+            </button>
+
+        </section>
+
+        <section id="movieResults" class="movies"></section>
+
+        <div id="pagination" class="pagination"></div>
+
+        <section class="favourites_section">
+
+            <h2 id="favouritesHeading">
+                ❤️ My Favourites (0)
+            </h2>
+
+            <div id="favourites" class="movies"></div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        Built with ❤️ using OMDb API
+    </footer>
+
+    <script src="movie_functional_v2.js"></script>
+
+</body>
+
+</html>
